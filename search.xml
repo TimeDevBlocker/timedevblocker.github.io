@@ -4,13 +4,23 @@
   
     
     <entry>
-      <title>Hello World</title>
-      <link href="/posts/4a17b156.html"/>
-      <url>/posts/4a17b156.html</url>
+      <title>使用NEOTK搜寻ITF中与已知小行星相关联的tracklets - NEOTK使用教程(1)</title>
+      <link href="/posts/3e60b13f.html"/>
+      <url>/posts/3e60b13f.html</url>
       
-        <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
+        <content type="html"><![CDATA[<h1 id="名词解释-前言"><a href="#名词解释-前言" class="headerlink" title="名词解释&amp;前言"></a>名词解释&amp;前言</h1><p>ITF，即<strong>I</strong>solated <strong>T</strong>racklet <strong>F</strong>ile，是小行星中心(<a href="https://www.minorplanetcenter.net/">Minor Planet Center</a>)生成的历史tracklet合集:</p><blockquote><p>Any objects that are not confirmed due to an insufficient observation arc or a false-positive detection will have its observations archived in the MPC’s Isolated Tracklet File of unconfirmed minor planet candidates.</p></blockquote><p>NEOTK工具可以查找ITF中未与已知小行星相关联，但属于该已知小行星的tracklets。将这些tracklet上报后能够降低该小行星的参数<strong>U</strong>(<a href="https://en.wikipedia.org/wiki/Uncertainty_parameter">Uncertainty parameter</a>)，从而加速获取小行星永久编号的进程。</p><h1 id="软件下载"><a href="#软件下载" class="headerlink" title="软件下载"></a>软件下载</h1><p>NEOTK可在<a href="https://rankinstudio.com/NEOTK">该网站</a>下载。<br>另外，该软件的运行依赖<a href="http://www.projectpluto.com/find_o32.zip">Find_Orb软件</a>与<a href="https://www.minorplanetcenter.net/iau/ITF/itf.txt.gz">ITF文件</a>。</p><p>下载完成后，将Find_Orb与ITF文件解压至同一目录下，再将NEOTK.exe与fo.exe复制至该目录。</p><h1 id="软件使用"><a href="#软件使用" class="headerlink" title="软件使用"></a>软件使用</h1><p>以下教程以2017 VH12为例：</p><h3 id="下载已知数据"><a href="#下载已知数据" class="headerlink" title="下载已知数据:"></a>下载已知数据:</h3><ol><li>在<a href="https://minorplanetcenter.net/db_search">MPC数据库</a>搜索小行星的临时编号，点击Show</li></ol><p><img src="/img/neotk1.png" alt="MPC Database Search页面"></p><ol start="2"><li>在结果页面将已知tracklets下载到本地</li></ol><p><img src="/img/neotk2.png" alt="搜索结果页面"></p><h3 id="星历表生成"><a href="#星历表生成" class="headerlink" title="星历表生成:"></a>星历表生成:</h3><ol><li><p>打开Find_Orb，点击Open，选择并打开下载的已知数据</p></li><li><p>按图示顺序依次点击1, 2, 3处按钮。点击完按钮3后会弹出”Make Ephemeris”窗口</p></li></ol><p><img src="/img/neotk3.png" alt="Find_Orb窗口"></p>]]></content>
       
       
+      
+        <tags>
+            
+            <tag> 天文 </tag>
+            
+            <tag> 使用教程 </tag>
+            
+            <tag> 折腾 </tag>
+            
+        </tags>
       
     </entry>
     
